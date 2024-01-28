@@ -1,0 +1,77 @@
+<html>
+    <head></head>
+    <body align="center">
+        <h1>form tags</h1>
+        <form method="post" action="_blank">
+            <fieldset>
+                <legend align="center">login details</legend>
+            <label>firstname:<sup>*</sup></label>
+            <input type="text"
+            placeholder="f Name"required><br>
+
+            <label>lastname:<sup>*</sup></label>
+            <input type="text"
+            placeholder="l Name"required><br>
+            
+            <label>middlename:<sup>*</sup></label>
+            <input type="text"
+            placeholder="m name"required><br>
+            </fieldset>
+            <label>password:<sup>*</sup></label>
+            <input type="password"
+            placeholder="password"required><br>
+            
+            <label>age:</label>
+            <input type="number" name="age"placeholder=enterage min="0" max="100"><br>
+            
+            <label>range:</label>
+            <input type="range" name="range"><br>
+            
+            <label>time</label>
+            <input type="time" name="time" min="1" max="12" ><br>
+            
+            <label>date of birth:</label>
+            <input type="date" name="dob"><br>
+        
+            <label>gender:</label>
+
+            <label for="m">male</label>
+            <input type="radio" name="gen" value="male" id="m">
+            
+            <label for="f">female</label>
+            <input type="radio" name="gen" value="female" id="f">
+            
+            <label for="o">others</label>
+            <input type="radio" name="gen" value="others" id="o"><br>
+            
+            <label>languages:</label>
+            <label>english</label>
+            <input type="checkbox" name="lan" value="english">
+
+            <label>kannada</label>
+            <input type="checkbox" name="lan" value="kannada">
+
+            <label>telugu</label>
+            <input type="checkbox" name="lan" value="telugu" disabled><br>
+
+            <label>palce:</label>
+            <select name="plc">
+                <option value="ban">banglore</option>
+                <option value="chn">chennai</option>
+                <option value="msr">mysore</option>
+                <option value="ark">araku</option>
+                <option disabled>anantapur</option>
+            </select><br>
+            <label>commentbox:</label>
+            <textarea name="cmt"  cols="5" rows="3" placeholder="cmtbox"></textarea><br>
+            <label>file:</label>
+            <input type="file" name="file"><br>
+            <input type="reset">
+            
+            <label>email:<sup>*</sup></label>
+            <input type="email" name="mail"
+            placeholder="email@gmail.com"required><br>
+            <input type="submit"value="click here">
+        </form>
+    </body>
+</html>
